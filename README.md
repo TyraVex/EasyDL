@@ -1,4 +1,4 @@
-# spotdl-youtube-dl-cli-shortcut
+# easy-youtube-and-spotify-downloader
 Batch scripts that simplify the use of spotdl and youtube-dl
 
 ![Alt Text](https://raw.githubusercontent.com/TyraVex/spotdl-youtube-dl-cli-shortcut/main/demo.gif)
