@@ -16,5 +16,5 @@ How to set this up?
 3. Execute `pip install spotdl && pip install youtube-dl`
 4. Download this repo's <a href="https://github.com/TyraVex/spotdl-youtube-dl-cli-shortcut/archive/refs/heads/main.zip">code</a>
 5. Run the batch file you need
-6. Give it a link/song name (only for spot.bat)
+6. Give it a link/song name (only for Spotitfy.bat)
 7. Enjoy!
