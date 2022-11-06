@@ -13,7 +13,7 @@ What's happening in the video :
 How to set this up?
 1. Install <a href="https://www.python.org/downloads/">python</a>
 2. Open cmd
-3. Execute `pip install spotdl && pip install youtube-dl`
+3. Execute `pip install spotdl`
 4. Download this repo's <a href="https://github.com/TyraVex/spotdl-youtube-dl-cli-shortcut/archive/refs/heads/main.zip">code</a>
 5. Run the batch file you need
 6. Give it a link/song name (only for Spotify.bat)
