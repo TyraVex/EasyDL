@@ -1,20 +1,8 @@
 # easy-youtube-and-spotify-downloader
-Batch scripts that simplify the use of spotdl and youtube-dl
-
-![Alt Text](https://raw.githubusercontent.com/TyraVex/spotdl-youtube-dl-cli-shortcut/main/demo.gif)
-
-What's happening in the video :
-1. Searching for the batch script
-2. It opens a terminal and ask for a music name or link
-3. Downloads it
-4. Exit itself when done
-5. Opens the directory where the music/video was downloaded
+Batch script that simplify the use of spotdl and yt-dlp
 
 How to set this up?
-1. Install <a href="https://www.python.org/downloads/">python</a>
-2. Open cmd
-3. Execute `pip install spotdl`
-4. Download this repo's <a href="https://github.com/TyraVex/spotdl-youtube-dl-cli-shortcut/archive/refs/heads/main.zip">code</a>
-5. Run the batch file you need
-6. Give it a link/song name (only for Spotify.bat)
-7. Enjoy!
+1. Download this repo's <a href="https://github.com/TyraVex/spotdl-youtube-dl-cli-shortcut/archive/refs/heads/main.zip">code</a>
+2. Run the batch script
+3. Give it a link/song name
+4. Enjoy!
