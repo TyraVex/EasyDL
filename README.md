@@ -1,4 +1,4 @@
-# easy-youtube-and-spotify-downloader
+# EAsyDL : an easy Youtube and Spotify downloader
 Batch script that simplify the use of spotdl and yt-dlp
 
 How to set this up?
