@@ -38,4 +38,3 @@ where /q ffmpeg || .\..\yt-dlp "%query%" --output "%%(title)s.%%(ext)s" -x --aud
 where /q ffmpeg && .\..\yt-dlp "%query%" --output "%%(title)s.%%(ext)s" -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --xattrs
 explorer .
 exit /b
-pause
