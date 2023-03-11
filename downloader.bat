@@ -1,8 +1,8 @@
 @echo off
 
 cd %~dp0
-IF NOT EXIST spotdl.exe echo Downloading spotdl... && curl -sL "https://github.com/spotDL/spotify-downloader/releases/download/v4.0.2/spotdl-4.0.2-win32.exe" --output spotdl.exe
-IF NOT EXIST yt-dlp.exe echo Downloading yt-dlp... && curl -sL "https://github.com/yt-dlp/yt-dlp/releases/download/2022.10.04/yt-dlp.exe" --output yt-dlp.exe
+IF NOT EXIST spotdl.exe echo Downloading spotdl... && curl -sL "https://github.com/spotDL/spotify-downloader/releases/download/v4.1.2/spotdl-4.1.2-win32.exe" --output spotdl.exe
+IF NOT EXIST yt-dlp.exe echo Downloading yt-dlp... && curl -sL "https://github.com/yt-dlp/yt-dlp/releases/download/2023.03.04/yt-dlp_x86.exe" --output yt-dlp.exe
 attrib +h *.exe
 where /q ffmpeg || IF NOT EXIST %userprofile%\.spotdl\ffmpeg.exe echo Downloading ffmpeg... && spotdl --download-ffmpeg > NUL
 IF NOT EXIST "Spotify musics" mkdir "Spotify musics"
@@ -38,3 +38,4 @@ where /q ffmpeg || .\..\yt-dlp "%query%" --output "%%(title)s.%%(ext)s" -x --aud
 where /q ffmpeg && .\..\yt-dlp "%query%" --output "%%(title)s.%%(ext)s" -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --xattrs
 explorer .
 exit /b
+pause
